@@ -142,7 +142,7 @@ namespace SoftLiteTest.Controllers
         }
 
         // POST: Tasks/Delete/5
-        [HttpPost, ActionName("Удалить")]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
